@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TrackerLib.Models;
 
-namespace TrackerLibrary
+namespace TrackerLib.DataAccess
 {
     public interface IDataConnection
     {
-        PrizeModel CreatePrize(PrizeModel model);
+        Models.PrizeModel CreatePrize(PrizeModel model);
     }
 }

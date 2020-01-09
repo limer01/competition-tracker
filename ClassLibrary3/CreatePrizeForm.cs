@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TrackerLibrary;
+using TrackerLib;
+using TrackerLib.DataAccess;
+using TrackerLib.Models;
 
 namespace TrackerUI
 {

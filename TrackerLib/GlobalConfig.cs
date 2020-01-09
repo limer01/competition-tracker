@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
-using TrackerLibrary.DataAccess;
+using TrackerLib.DataAccess;
 
-namespace TrackerLibrary
+namespace TrackerLib
 {
     public static class GlobalConfig
     {
